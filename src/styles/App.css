@@ -26,6 +26,26 @@ header {
   background-color: #b8b8b8;
 }
 
+/* HERO ========================== */
+
+.hero {
+  background: url('/images/hero.jpg') no-repeat bottom;
+  background-size: cover;
+  padding: 200px 0;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 50px;
+  color: #fff;
+}
+.h1-span {
+  background-color: #0009;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
 /* UI */
 
 .container {
