@@ -28,11 +28,3 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
-/* common rules */
-.container {
-  /* apridboti tik maximalu ploti */
-  max-width: 1000px;
-  /* skaiciuoti parastes automatiskai vienodai is kaires ir is desines */
-  margin: 0 auto;
-}

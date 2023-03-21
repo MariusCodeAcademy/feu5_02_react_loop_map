@@ -4,3 +4,22 @@
   gap: 16px;
   margin-top: 20px;
 }
+
+/* UI */
+
+.container {
+  /* apridboti tik maximalu ploti */
+  max-width: 1000px;
+  /* skaiciuoti parastes automatiskai vienodai is kaires ir is desines */
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.flex {
+  display: flex;
+}
+.spaceBetween {
+  justify-content: space-between;
+  align-items: center;
+}
