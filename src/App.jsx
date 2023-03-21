@@ -1,10 +1,17 @@
 import './styles/reset.css';
 import './styles/App.css';
+import Header from './components/layout/Header';
+import Hero from './components/Hero';
+import Projects from './components/projects/Projects';
+import About from './components/about/About';
 
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
+      <Header />
+      <Hero />
+      <Projects />
+      <About />
     </div>
   );
 }
