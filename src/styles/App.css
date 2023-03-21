@@ -46,6 +46,79 @@ h1 {
   font-weight: bold;
 }
 
+/* Projects section  */
+
+.section-title {
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 14px;
+  font-weight: normal;
+}
+
+.projects {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.img-box {
+  border: 1px solid #000;
+  width: 245px;
+  height: 170px;
+  position: relative;
+  display: inline-block;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.img-title {
+  font-weight: normal;
+  background-color: #333;
+  color: white;
+  padding: 8px 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* right: 0; */
+}
+
+/* row 2 with bg */
+.img-box-bg {
+  border: 1px solid #000;
+  width: 245px;
+  height: 170px;
+  display: inline-block;
+  background: url('/images/house5.jpg') no-repeat;
+  background-size: cover;
+}
+.img-title-bg {
+  font-weight: normal;
+  background-color: #333;
+  color: white;
+  padding: 8px 16px;
+  display: inline-block;
+}
+/* patys paveiksleliai atitinkamai dezutei */
+#h2 {
+  background-image: url('/images/house4.jpg');
+}
+#h3 {
+  background-image: url('/images/house3.jpg');
+}
+#h4 {
+  background-image: url('/images/house2.jpg');
+}
+
+/* islygiuoti vertikaliai */
+.img-box-bg,
+.img-box {
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
 /* UI */
 
 .container {
