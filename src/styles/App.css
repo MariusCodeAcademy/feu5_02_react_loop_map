@@ -5,6 +5,27 @@
   margin-top: 20px;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
+
+.navLink,
+.logo {
+  padding: 0.5em 1em;
+  display: inline-block;
+}
+.navLink:hover,
+.logo:hover {
+  background-color: #b8b8b8;
+}
+
 /* UI */
 
 .container {
