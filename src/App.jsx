@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header />
       <Hero />
-      <Projects />
+      <Projects list={[]} />
       <About />
     </div>
   );
